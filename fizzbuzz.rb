@@ -9,4 +9,5 @@ def fizzbuzz(number)
   else number % 5 == 0
     text = "Buzz"
   end
+  text = text
 end
