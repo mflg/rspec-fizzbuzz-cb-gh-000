@@ -4,9 +4,13 @@ def fizzbuzz(number)
   text = nil
   if number%3==0 && number%5==0
     "FizzBuzz"
-  elsif number % 3 == 0
+  end
+  if number % 3 == 0
     "Fizz"
-  else number % 5 == 0
+  end
+
+  if number % 5 == 0
     "Buzz"
   end
+  
 end
