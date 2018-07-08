@@ -3,11 +3,10 @@
 def fizzbuzz(number)
   text = nil
   if number%3==0 && number%5==0
-    text = "FizzBuzz"
+    "FizzBuzz"
   elsif number % 3 == 0
-    text = "Fizz"
+    "Fizz"
   else number % 5 == 0
-    text = "Buzz"
+    "Buzz"
   end
-  text = text
 end
